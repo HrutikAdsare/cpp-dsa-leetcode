@@ -15,7 +15,7 @@ public:
             else if(nums[mid]==1){
                 mid++;
             }
-            else if(nums[mid]==2){
+            else{
                 swap(nums[high],nums[mid]);
                 high--;
             }
