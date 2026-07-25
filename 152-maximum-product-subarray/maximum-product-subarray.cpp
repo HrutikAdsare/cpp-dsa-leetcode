@@ -12,7 +12,7 @@ public:
 
             maxend=max(v1,max(v2,v3));
             minend=min(v1,min(v2,v3));
-            ans= max(ans,max(maxend,minend));
+            ans= max(ans,maxend);
         }
         return ans;
     }
