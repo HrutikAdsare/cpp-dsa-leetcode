@@ -9,13 +9,11 @@ public:
             if(people[i]+people[j]<=limit){
                 i++;
                 j--;
-                ans++;
             }
             else{
                 j--;
-                ans++;
             }
-            
+            ans++;
         }
         return ans;
 
