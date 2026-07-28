@@ -18,6 +18,6 @@ public:
             }
             j++;
         }
-        return (res == INT_MAX) ? 0 : res;;
+        return (res == INT_MAX) ? 0 : res;
     }
 };
